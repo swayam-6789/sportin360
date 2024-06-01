@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-image: linear-gradient(125deg,
+        #CE9FFC, #7367F0, 
+        #81FBB8,#28C76F, 
+        #FFD26F,#3677FF,
+        #FEC163,#DE4313,
+        #EECE13,#B210FF
+        );
+    background-size: 400% 400%;
+    animation: bganimation 150s infinite;
+}
+
+.text {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-transform: uppercase;
+    margin: 300px 0;
+    font-size: 22px;
+}
+
+@keyframes bganimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 1000% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #a0c9f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.disease-selection {
+    margin-bottom: 20px;
+}
+
+#disease-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.precautions h2 {
+    color: #007bff;
+}
+
+#precautions-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    color:black
+}
+/* Add this to your existing styles.css file */
+
+.food-suggestions {
+    margin-top: 20px;
+}
+
+.food-suggestions h2 {
+    color: #007bff;
+}
+
+#food-suggestions-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#food-suggestions-list li {
+    margin-bottom: 10px;
+    color: #333;
+}

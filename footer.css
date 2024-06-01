@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    /* Your content styles go here */
+}
+
+.footer {
+    /* Footer styles go here */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height:5vh;
+}
+section{
+    text-align: center;
+}
+
+i:hover{
+    background-color: aliceblue;
+    color:#333;
+    scale: 1.75;
+    border-radius: 0.5rem;
+}
